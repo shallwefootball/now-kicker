@@ -6,8 +6,6 @@ const fetch = require('node-fetch');
 const _ = require('lodash');
 const { NOW_API } = process.env;
 
-console.log('NOW_API', NOW_API);
-
 const API_PATH = 'https://api.zeit.co/v2/now/deployments';
 
 const headers = {
