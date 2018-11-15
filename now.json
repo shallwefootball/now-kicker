@@ -1,4 +1,5 @@
 {
+  "version": 1,
   "scale": {
     "sfo1": {
       "min": 1,
@@ -8,5 +9,5 @@
   "env": {
     "NOW_API": "@now-api"
   },
-  "alias": "vigil.shallwefootball.com"
+  "alias": "kicker.shallwefootball.com"
 }
