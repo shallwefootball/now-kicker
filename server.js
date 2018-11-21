@@ -27,6 +27,7 @@ app.prepare().then(() => {
       headers: HEADERS
     }).then(res => res.json());
 
+    deployments.sort((a, b) => b.created - a.created);
     const index = _.findIndex(deployments, { name: path });
 
     if (index > -1) {
